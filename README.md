@@ -1,8 +1,28 @@
 # Tic Tac Toe
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
+## Requirements
+To install and run this project, you need to use **either** `npm` or `bun`.  
+- If you are using **npm**, follow the instructions under **"Using NPM"**.  
+- If you are using **bun**, follow the instructions under **"Using Bun"**.  
+
+---
+
 # Svelte Project Setup Guide
-## Install Dependencies
+
+### 1. Clone the Project
+First, clone this repository to your local machine:
+```bash
+git clone https://github.com/daotoanthang/tic-tac-toe.git
+```
+
+### 2. Navigate into the Project Directory
+First, clone this repository to your local machine:
+```bash
+cd <project-folder>
+```
+
+## 3. Install Dependencies
 ### Using Bun:
 ```bash
 bun install
@@ -11,7 +31,7 @@ bun install
 ```bash
 npm install
 ```
-## Run the Project
+## 4. Run the Project
 
 After installing dependencies, start the project with one of the following commands:
 ### Using Bun:
@@ -23,7 +43,7 @@ bun dev
 npm run dev
 ```
 
-## View the Project in Browser
+## 5. View the Project in Browser
 
 Once the server starts, the terminal will display the local development URL. By default, the project runs at:
 To create a production version of your app:
